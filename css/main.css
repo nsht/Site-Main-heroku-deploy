@@ -94,19 +94,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   #Header-Main{
+   #Hero-Header-Main{
     background-color:black;
     color:white;
     text-align:center;
     box-shadow: 0px 0px 3px #333;
 
+    /*29/8/16 Hero Text Align*/
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    font-family: 'Dancing Script', cursive;
    }
    
+   #Hero-Text{
+    font-size: 4em;
+    margin: 0.67em 0;
+   }
 
 
 
